@@ -1,0 +1,31 @@
+<template>
+  <h2 class="text-2xl font-bold">These animals new need homes</h2>
+  <suspense>
+    <template #default>
+      <list></list>
+    </template>
+    <template #fallback>
+      <loading></loading>
+    </template>
+  </suspense>
+</template>
+<script>
+import List from '../components/List.vue';
+
+import Loading from '../components/Loading.vue';
+import { onErrorCaptured, ref } from 'vue';
+
+export default {
+  name: 'App',
+  components: {
+    List,
+    Loading
+  },
+  setup() {
+    const e = ref(null);
+    onErrorCaptured(e => {
+      error.value = e;
+    });
+  }
+};
+</script>
