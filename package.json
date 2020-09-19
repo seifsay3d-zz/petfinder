@@ -6,6 +6,7 @@
     "build": "vite build"
   },
   "dependencies": {
+    "firebase": "^7.21.0",
     "tailwindcss": "^1.8.2",
     "vue": "^3.0.0-rc.1",
     "vue-router": "v4.0.0-beta.9"
