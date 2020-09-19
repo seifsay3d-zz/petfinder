@@ -4,10 +4,10 @@
 
     <ul class="flex items-center justify-end flex-1 text-yellow-600 ">
       <li class="ml-6 mr-6">
-        <router-link to="/found">Found</router-link>
+        <router-link to="/pets/found">Found</router-link>
       </li>
       <li class="ml-6 mr-6">
-        <router-link to="/lost">Lost</router-link>
+        <router-link to="/pets/lost">Lost</router-link>
       </li>
       <li class="ml-6 mr-6">
         <login />

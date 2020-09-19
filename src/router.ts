@@ -8,12 +8,12 @@ export const router = createRouter({
       component: () => import('./pages/Home.vue')
     },
     {
-      path: '/lost',
+      path: '/pets/lost',
       name: 'lost',
       component: () => import('./pages/Lost.vue')
     },
     {
-      path: '/found',
+      path: '/pets/found',
       name: 'found',
       component: () => import('./pages/Found.vue')
     },

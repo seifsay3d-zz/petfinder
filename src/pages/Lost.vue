@@ -2,7 +2,7 @@
   <h2 class="text-4xl font-bold">Missing!</h2>
   <suspense>
     <template #default>
-      <list></list>
+      <list status="lost"></list>
     </template>
     <template #fallback>
       <loading></loading>

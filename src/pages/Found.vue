@@ -2,7 +2,7 @@
   <h2 class="text-2xl font-bold">These animals new need homes</h2>
   <suspense>
     <template #default>
-      <list></list>
+      <list status="found"></list>
     </template>
     <template #fallback>
       <loading></loading>
